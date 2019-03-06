@@ -1,0 +1,12 @@
+g-emoji {
+  font-family: 'Apple Color Emoji', 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 400;
+  &.g-emoji-replaced {
+    vertical-align: middle;
+    img {
+      width: 1em;
+      height: 1em;
+      display: inline-block;
+    }
+  }
+}
